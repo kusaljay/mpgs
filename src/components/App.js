@@ -3,8 +3,8 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import fbase from './fbase';
 import Login from './Login';
 import PrivateRoute from './PrivateRoute';
-import PsgEmployee from './PsgEmployee';
-import './App.css';
+import PsgHome from './PsgHome';
+import './App.scss';
 
 class App extends Component {
   state = {
@@ -31,7 +31,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Route path="/login" component={Login} />
-          <PrivateRoute path="/empinfo" component={PsgEmployee} signedIn={signedIn} />
+          <PrivateRoute path="/psghome" component={PsgHome} signedIn={signedIn} />
         </div>
       </Router>
 

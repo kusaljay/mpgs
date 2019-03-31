@@ -12,10 +12,10 @@
   position: relative;
   min-height: 100vh;
   flex-direction: column;
-}
 
-.psg-heading-main {
-  font-size: 2rem;
+  &.post-login {
+    padding-bottom: 180px;
+  }
 }
 
 .psg-link-text {
@@ -28,13 +28,16 @@
   }
 }
 
-.login-container {
-  width: 450px;
-  min-width: 300px;
+.content-container {
   padding: 35px 25px;
   background-color: #fff;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   border: none;
+
+  &.login {
+    width: 450px;
+    min-width: 300px;
+  }
 }
 
 .header-wrapper {
@@ -54,7 +57,6 @@
   .inner-wrapper {
     height: inherit;
   }
-
 }
 
 .footer-wrapper {
@@ -95,11 +97,26 @@
   }
 }
 
+
+.psg-heading-main {
+  font-size: 2rem;
+}
+
+.psg-heading-card {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
 .btn-login {
   width: 100%;
 }
 
+.btn-post-login {
+  min-width: 200px;
+}
 
 .empinfo-field {
   flex: 50%;
+  padding-right: 1.5rem;
 }

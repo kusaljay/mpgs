@@ -33,7 +33,7 @@ class Login extends Component {
     return (
       <div className="container login-wrapper d-flex justify-content-center align-items-center">
         <h1 className="psg-heading-main mb-4">Sign in to PSG</h1>
-        <div className="card login-container">
+        <div className="card content-container login">
           <form onSubmit={this.handleSignIn}>
             <div className="form-group">
               <label>Username</label>

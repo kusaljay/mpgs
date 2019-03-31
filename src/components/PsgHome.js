@@ -9,36 +9,45 @@ class PsgHome extends Component {
   state = {
     firstName: '',
     lastName: '',
-    annualSalary: null,
+    annualIncome: null,
     superPercent: null,
+    grossIncome: null,
+    incomeTax: null,
+    netIncome: null,
+    pay: null,
     showPreview: false
   }
 
-  handleChange = (e) => {
+  handleInputChange = (e) => {
     this.setState({
-      [e.target.id]: e.target.value 
+      [e.target.name]: e.target.value 
     });
   }
 
-  /* static getDerivedStateFromProps(nextProps, prevState) {
-    if(prevState !== nextProps) {
-      firstName: nextProps.firstName;
-
-    }
-  }
- */
   componentDidMount() {
-
+    // this.setState({})
   }
 
   handleSubmit = (e) => {
     e.preventDefault();
     this.setState({showPreview: true});
+
+  }
+
+  calcGrossIncome = () => {
+    const grossIncome = this.state.grossIncome;
+    return this.state.annualIncome / 12;
+
+  }
+
+  calcPay () {
+    
+
   }
 
   renderContent = () => {
-    if(this.state.showPreview === false) {
-      return <PsgForm fieldChanged={this.handleChange} submitGenerate={this.handleSubmit} />
+    if(!this.state.showPreview) {
+      return <PsgForm inputChanged={this.handleInputChange} submitGenerate={this.handleSubmit} />
     } else {
       return <PsgPreview employeeData={this.state} />
     }
@@ -47,17 +56,18 @@ class PsgHome extends Component {
   render() {
 
     return (
-      <div className="post-login-main-wrapper">
+      <div className="post-login-main-wrapper post-login">
         <PsgHeader />
         <main className="container">
-            {this.renderContent()}
-            {/* <PsgPreview empData={this.state} /> */}
-            {/* 
-            <Route path="/" 
-                   render={(routeProps) => (<PsgForm {...routeProps} fieldChanged={this.handleChange} submitGenerate={this.handleSubmit} />)} />
-            <Route path="/psghome/preview" 
-                   render={(routeProps) => (<PsgPreview {...routeProps} employeeData={this.state} />)} />
-            */}
+          <h1 className="psg-heading-main mt-5 mb-2">Pay Slip Generator</h1>
+          {this.renderContent()}
+          {/* <PsgPreview empData={this.state} /> */}
+          {/* 
+          <Route path="/" 
+                  render={(routeProps) => (<PsgForm {...routeProps} fieldChanged={this.handleChange} submitGenerate={this.handleSubmit} />)} />
+          <Route path="/psghome/preview" 
+                  render={(routeProps) => (<PsgPreview {...routeProps} employeeData={this.state} />)} />
+          */}
         </main>
         <PsgFooter />
       </div>

@@ -1,12 +1,12 @@
 import React from 'react';
 import { withRouter } from 'react-router';
 
-const PsgPreview = (props) => {
+const PsgPreview = ({employeeData}) => {
   return (
     <div>
-      <h4>Generaor</h4>
-        <div className="preview-wrapper">
-          <h5>PS for</h5>
+      <div className="preview-wrapper card content-container">
+        <h2 className="psg-heading-card">Pay slip for {employeeData.firstName}&nbsp;{employeeData.lastName}</h2>
+        <div className="d-flex flex-wrap">
           <table className="table">
             <thead>
               <tr>
@@ -17,7 +17,7 @@ const PsgPreview = (props) => {
             <tbody>
               <tr>
                 <td>Employee</td>
-                <td>{props.firstName}{props.lastName}</td>
+                <td>{employeeData.firstName}&nbsp;{employeeData.lastName}</td>
               </tr>
               <tr>
                 <td>Pay Date</td>
@@ -29,7 +29,7 @@ const PsgPreview = (props) => {
               </tr>
               <tr>
                 <td>Annual Income</td>
-                <td></td>
+                <td>{employeeData.annualIncome}</td>
               </tr>
               <tr>
                 <td>Gross Income</td>
@@ -53,10 +53,9 @@ const PsgPreview = (props) => {
               </tr>
             </tbody>
           </table>
-          <button type="button">Pay</button>
+          <button type="button" className="btn btn-success btn-post-login">Pay</button>
         </div>
-
-
+      </div>
     </div>
   )
 }

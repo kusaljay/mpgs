@@ -14,6 +14,9 @@
 # dblocal
 /api
 
+# nocommit
+/src/components/PsgHome.js.bk
+
 # misc
 .DS_Store
 .env.local

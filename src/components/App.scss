@@ -1,7 +1,3 @@
-.main-wrapper {
-  
-}
-
 .App {
   min-height: 100vh;
   background-color: #f3f4f5;
@@ -97,7 +93,6 @@
   }
 }
 
-
 .psg-heading-main {
   font-size: 2rem;
 }
@@ -105,7 +100,7 @@
 .psg-heading-card {
   font-size: 1.5rem;
   font-weight: normal;
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
 }
 
 .btn-login {
@@ -119,4 +114,20 @@
 .empinfo-field {
   flex: 50%;
   padding-right: 1.5rem;
+}
+
+.form-errors {
+  color: #f00;
+  font-size: 0.875rem;
+}
+
+.logo {
+  &.login {
+    width: 145px;
+    margin-bottom: 1rem;
+  }
+
+  &.inner {
+    width: 100px;
+  }
 }

@@ -1,11 +1,10 @@
 import React from 'react';
-import { withRouter } from 'react-router';
 
 const PsgPreview = ({employeeData}) => {
   return (
     <div>
       <div className="preview-wrapper card content-container">
-        <h2 className="psg-heading-card">Pay slip for {employeeData.firstName}&nbsp;{employeeData.lastName}</h2>
+        {/* <h2 className="psg-heading-card">Pay slip for {employeeData.firstName}&nbsp;{employeeData.lastName}</h2> */}
         <div className="d-flex flex-wrap">
           <table className="table">
             <thead>
@@ -21,11 +20,11 @@ const PsgPreview = ({employeeData}) => {
               </tr>
               <tr>
                 <td>Pay Date</td>
-                <td></td>
+                <td>{employeeData.payDate}</td>
               </tr>
               <tr>
                 <td>Pay Frequency</td>
-                <td></td>
+                <td>{employeeData.payFrequency}</td>
               </tr>
               <tr>
                 <td>Annual Income</td>
@@ -33,23 +32,23 @@ const PsgPreview = ({employeeData}) => {
               </tr>
               <tr>
                 <td>Gross Income</td>
-                <td></td>
+                <td>{employeeData.grossIncome}</td>
               </tr>
               <tr>
                 <td>Income Tax</td>
-                <td></td>
+                <td>{employeeData.incomeTax}</td>
               </tr>
               <tr>
                 <td>Net Income</td>
-                <td></td>
+                <td>{employeeData.netIncome}</td>
               </tr>
               <tr>
                 <td>Super</td>
-                <td></td>
+                <td>{employeeData.superAnnuation}</td>
               </tr>
               <tr>
                 <td>Pay</td>
-                <td></td>
+                <td>{employeeData.pay}</td>
               </tr>
             </tbody>
           </table>
@@ -60,4 +59,4 @@ const PsgPreview = ({employeeData}) => {
   )
 }
 
-export default withRouter(PsgPreview);
+export default PsgPreview;

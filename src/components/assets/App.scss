@@ -100,7 +100,14 @@
 .psg-heading-card {
   font-size: 1.5rem;
   font-weight: normal;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1rem;
+
+  .icon {
+    width: 2rem;
+    height: 2rem;
+    margin: -0.25rem 0.75rem 0 0;
+    fill-opacity: 0.4;
+  }
 }
 
 .btn-login {
@@ -109,6 +116,10 @@
 
 .btn-post-login {
   min-width: 200px;
+
+  &.add-another + .pay {
+    display: none;
+  }
 }
 
 .empinfo-field {
@@ -116,8 +127,7 @@
   padding-right: 1.5rem;
 }
 
-.form-errors {
-  color: #f00;
+.form-alerts {
   font-size: 0.875rem;
 }
 
@@ -131,3 +141,45 @@
     width: 100px;
   }
 }
+
+.table-psg {
+  margin-bottom: 2rem;
+
+    th {
+      border-top-color: #fff;
+    }
+
+    tbody > tr {
+      
+
+      &:last-child {
+        td {
+          border-bottom: solid 1px #dee2e6;
+        }
+      }
+
+      td.w-30 {
+        width: 40%;
+      }
+      
+      td.w-70 {
+        width: 60%;
+      }
+
+      td.dollar {
+        position: relative;
+        padding-left: 1.5rem;
+      
+        &:before {
+          content: '$';
+          position: absolute;
+          left: 0.75rem;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+}
+
+
+

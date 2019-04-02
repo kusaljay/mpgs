@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-import fbase from './fbase';
+import firebase from './firebase';
 import Login from './Login';
 import PrivateRoute from './PrivateRoute';
 import PsgHome from './PsgHome';
-import './App.scss';
+import './assets/App.scss';
 
 class App extends Component {
   state = {
@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() { 
-    fbase.auth().onAuthStateChanged( user => {
+    firebase.auth().onAuthStateChanged( user => {
       if(user) {
         this.setState({ signedIn: true, currentUser: user }); 
       }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
-import fbase from './fbase';
+import firebase from './firebase';
 import logo from './assets/logo-gradient.svg';
 
 class Login extends Component {
@@ -18,14 +18,11 @@ class Login extends Component {
   handleSignIn = async e => {
     e.preventDefault();
     const { username, password } = e.target.elements;
-    //let errors = '';
     try {
-      const user = await fbase.auth().signInWithEmailAndPassword(username.value, password.value);
+      const user = await firebase.auth().signInWithEmailAndPassword(username.value, password.value);
       this.props.history.push('/psghome');
     } 
     catch (error) {
-      //console.log(error.code);
-      //console.log(error.message);
       this.setState({formErrors: error.message});
     }
   }
@@ -37,7 +34,7 @@ class Login extends Component {
         <h1 className="psg-heading-main mb-4">Sign in to PSG</h1>
         <div className="card content-container login">
           <form onSubmit={this.handleSignIn}>
-            <div className="form-errors">{this.state.formErrors}</div>
+            {this.state && this.state.formErrors && <div className="alert alert-danger form-alerts">{this.state.formErrors}</div>}
             <div className="form-group">
               <label>Username</label>
               <input type="text" className="form-control" id="username" onChange={this.handleChange} value={this.state.username} />

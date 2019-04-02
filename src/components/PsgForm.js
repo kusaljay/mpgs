@@ -18,11 +18,13 @@ const PsgForm = ({inputChanged, submitGenerate, errors}) => {
           </div>
           <div className="form-group empinfo-field">
             <label>Annual Salary</label>
-            <input type="text" className="form-control dollar" name="annualIncome" onChange={inputChanged} />
+            <span className="unit">$</span>
+            <input type="text" className="form-control empinfo-input" name="annualIncome" onChange={inputChanged} />
           </div>
           <div className="form-group empinfo-field">
             <label>Superannuation Rate</label>
-            <input type="text" className="form-control" name="superPercent" onChange={inputChanged} />
+            <span className="unit">%</span>
+            <input type="text" className="form-control empinfo-input" name="superPercent" onChange={inputChanged} />
           </div>
           <button type="submit" className="btn btn-success btn-post-login">Generate Payslip</button>
         </div>

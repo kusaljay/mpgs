@@ -4,7 +4,7 @@
 
 ## How to install and run the project
 
-* Clone from github repository to an empty directory.
+* Clone this repository to an empty directory.
 * In the directory run 'npm install' to bring in all the dependencies.
 * Please refer the email sent to see how to connect to back-end database.
 * After setting up the database, run 'npm start' to run the app.

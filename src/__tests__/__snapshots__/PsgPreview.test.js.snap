@@ -1,0 +1,2450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PsgPreview Should render preview 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PsgPreview
+    clickAnother={true}
+    clickPay={true}
+    employeeData={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="preview-wrapper card content-container"
+      >
+        <h2
+          className="psg-heading-card"
+        >
+          <IoIosContact
+            className="icon"
+          />
+          Pay slip for 
+           
+        </h2>
+        <div
+          className="d-flex flex-wrap"
+        >
+          <table
+            className="table table-psg"
+          >
+            <thead>
+              <tr>
+                <th
+                  className="w-30"
+                  scope="col"
+                >
+                  Item
+                </th>
+                <th
+                  className="w-70"
+                  scope="col"
+                >
+                  Emp Details
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="w-30"
+                >
+                  Employee
+                </td>
+                <td
+                  className="w-70 ="
+                >
+                   
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="w-30"
+                >
+                  Pay Date
+                </td>
+                <td
+                  className="w-70"
+                />
+              </tr>
+              <tr>
+                <td
+                  className="w-30"
+                >
+                  Pay Frequency
+                </td>
+                <td
+                  className="w-70"
+                />
+              </tr>
+              <tr>
+                <td
+                  className="w-30"
+                >
+                  Annual Income
+                </td>
+                <td
+                  className="w-70 dollar"
+                />
+              </tr>
+              <tr>
+                <td
+                  className="w-30"
+                >
+                  Gross Income
+                </td>
+                <td
+                  className="w-70 dollar"
+                />
+              </tr>
+              <tr>
+                <td
+                  className="w-30"
+                >
+                  Income Tax
+                </td>
+                <td
+                  className="w-70 dollar"
+                />
+              </tr>
+              <tr>
+                <td
+                  className="w-30"
+                >
+                  Net Income
+                </td>
+                <td
+                  className="w-70 dollar"
+                />
+              </tr>
+              <tr>
+                <td
+                  className="w-30"
+                >
+                  Super
+                </td>
+                <td
+                  className="w-70 dollar"
+                />
+              </tr>
+              <tr>
+                <td
+                  className="w-30"
+                >
+                  Pay
+                </td>
+                <td
+                  className="w-70 dollar"
+                />
+              </tr>
+            </tbody>
+          </table>
+          <button
+            className="btn btn-success btn-post-login btn-pay"
+            onClick={true}
+            type="button"
+          >
+            Pay
+          </button>
+        </div>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="psg-heading-card"
+          >
+            <IoIosContact
+              className="icon"
+            />
+            Pay slip for 
+             
+          </h2>,
+          undefined,
+          undefined,
+          <div
+            className="d-flex flex-wrap"
+          >
+            <table
+              className="table table-psg"
+            >
+              <thead>
+                <tr>
+                  <th
+                    className="w-30"
+                    scope="col"
+                  >
+                    Item
+                  </th>
+                  <th
+                    className="w-70"
+                    scope="col"
+                  >
+                    Emp Details
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Employee
+                  </td>
+                  <td
+                    className="w-70 ="
+                  >
+                     
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Pay Date
+                  </td>
+                  <td
+                    className="w-70"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Pay Frequency
+                  </td>
+                  <td
+                    className="w-70"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Annual Income
+                  </td>
+                  <td
+                    className="w-70 dollar"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Gross Income
+                  </td>
+                  <td
+                    className="w-70 dollar"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Income Tax
+                  </td>
+                  <td
+                    className="w-70 dollar"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Net Income
+                  </td>
+                  <td
+                    className="w-70 dollar"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Super
+                  </td>
+                  <td
+                    className="w-70 dollar"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Pay
+                  </td>
+                  <td
+                    className="w-70 dollar"
+                  />
+                </tr>
+              </tbody>
+            </table>
+            <button
+              className="btn btn-success btn-post-login btn-pay"
+              onClick={true}
+              type="button"
+            >
+              Pay
+            </button>
+          </div>,
+        ],
+        "className": "preview-wrapper card content-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <IoIosContact
+                className="icon"
+              />,
+              "Pay slip for ",
+              undefined,
+              " ",
+              undefined,
+            ],
+            "className": "psg-heading-card",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "icon",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "Pay slip for ",
+            undefined,
+            " ",
+            undefined,
+          ],
+          "type": "h2",
+        },
+        undefined,
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <table
+                className="table table-psg"
+              >
+                <thead>
+                  <tr>
+                    <th
+                      className="w-30"
+                      scope="col"
+                    >
+                      Item
+                    </th>
+                    <th
+                      className="w-70"
+                      scope="col"
+                    >
+                      Emp Details
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Employee
+                    </td>
+                    <td
+                      className="w-70 ="
+                    >
+                       
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Pay Date
+                    </td>
+                    <td
+                      className="w-70"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Pay Frequency
+                    </td>
+                    <td
+                      className="w-70"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Annual Income
+                    </td>
+                    <td
+                      className="w-70 dollar"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Gross Income
+                    </td>
+                    <td
+                      className="w-70 dollar"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Income Tax
+                    </td>
+                    <td
+                      className="w-70 dollar"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Net Income
+                    </td>
+                    <td
+                      className="w-70 dollar"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Super
+                    </td>
+                    <td
+                      className="w-70 dollar"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Pay
+                    </td>
+                    <td
+                      className="w-70 dollar"
+                    />
+                  </tr>
+                </tbody>
+              </table>,
+              <button
+                className="btn btn-success btn-post-login btn-pay"
+                onClick={true}
+                type="button"
+              >
+                Pay
+              </button>,
+            ],
+            "className": "d-flex flex-wrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <thead>
+                    <tr>
+                      <th
+                        className="w-30"
+                        scope="col"
+                      >
+                        Item
+                      </th>
+                      <th
+                        className="w-70"
+                        scope="col"
+                      >
+                        Emp Details
+                      </th>
+                    </tr>
+                  </thead>,
+                  <tbody>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Employee
+                      </td>
+                      <td
+                        className="w-70 ="
+                      >
+                         
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Pay Date
+                      </td>
+                      <td
+                        className="w-70"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Pay Frequency
+                      </td>
+                      <td
+                        className="w-70"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Annual Income
+                      </td>
+                      <td
+                        className="w-70 dollar"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Gross Income
+                      </td>
+                      <td
+                        className="w-70 dollar"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Income Tax
+                      </td>
+                      <td
+                        className="w-70 dollar"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Net Income
+                      </td>
+                      <td
+                        className="w-70 dollar"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Super
+                      </td>
+                      <td
+                        className="w-70 dollar"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Pay
+                      </td>
+                      <td
+                        className="w-70 dollar"
+                      />
+                    </tr>
+                  </tbody>,
+                ],
+                "className": "table table-psg",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <tr>
+                      <th
+                        className="w-30"
+                        scope="col"
+                      >
+                        Item
+                      </th>
+                      <th
+                        className="w-70"
+                        scope="col"
+                      >
+                        Emp Details
+                      </th>
+                    </tr>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <th
+                          className="w-30"
+                          scope="col"
+                        >
+                          Item
+                        </th>,
+                        <th
+                          className="w-70"
+                          scope="col"
+                        >
+                          Emp Details
+                        </th>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Item",
+                          "className": "w-30",
+                          "scope": "col",
+                        },
+                        "ref": null,
+                        "rendered": "Item",
+                        "type": "th",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Emp Details",
+                          "className": "w-70",
+                          "scope": "col",
+                        },
+                        "ref": null,
+                        "rendered": "Emp Details",
+                        "type": "th",
+                      },
+                    ],
+                    "type": "tr",
+                  },
+                  "type": "thead",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Employee
+                        </td>
+                        <td
+                          className="w-70 ="
+                        >
+                           
+                        </td>
+                      </tr>,
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Pay Date
+                        </td>
+                        <td
+                          className="w-70"
+                        />
+                      </tr>,
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Pay Frequency
+                        </td>
+                        <td
+                          className="w-70"
+                        />
+                      </tr>,
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Annual Income
+                        </td>
+                        <td
+                          className="w-70 dollar"
+                        />
+                      </tr>,
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Gross Income
+                        </td>
+                        <td
+                          className="w-70 dollar"
+                        />
+                      </tr>,
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Income Tax
+                        </td>
+                        <td
+                          className="w-70 dollar"
+                        />
+                      </tr>,
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Net Income
+                        </td>
+                        <td
+                          className="w-70 dollar"
+                        />
+                      </tr>,
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Super
+                        </td>
+                        <td
+                          className="w-70 dollar"
+                        />
+                      </tr>,
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Pay
+                        </td>
+                        <td
+                          className="w-70 dollar"
+                        />
+                      </tr>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td
+                            className="w-30"
+                          >
+                            Employee
+                          </td>,
+                          <td
+                            className="w-70 ="
+                          >
+                             
+                          </td>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Employee",
+                            "className": "w-30",
+                          },
+                          "ref": null,
+                          "rendered": "Employee",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              undefined,
+                              " ",
+                              undefined,
+                            ],
+                            "className": "w-70 =",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            undefined,
+                            " ",
+                            undefined,
+                          ],
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td
+                            className="w-30"
+                          >
+                            Pay Date
+                          </td>,
+                          <td
+                            className="w-70"
+                          />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Pay Date",
+                            "className": "w-30",
+                          },
+                          "ref": null,
+                          "rendered": "Pay Date",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": undefined,
+                            "className": "w-70",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td
+                            className="w-30"
+                          >
+                            Pay Frequency
+                          </td>,
+                          <td
+                            className="w-70"
+                          />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Pay Frequency",
+                            "className": "w-30",
+                          },
+                          "ref": null,
+                          "rendered": "Pay Frequency",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": undefined,
+                            "className": "w-70",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td
+                            className="w-30"
+                          >
+                            Annual Income
+                          </td>,
+                          <td
+                            className="w-70 dollar"
+                          />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Annual Income",
+                            "className": "w-30",
+                          },
+                          "ref": null,
+                          "rendered": "Annual Income",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": undefined,
+                            "className": "w-70 dollar",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td
+                            className="w-30"
+                          >
+                            Gross Income
+                          </td>,
+                          <td
+                            className="w-70 dollar"
+                          />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Gross Income",
+                            "className": "w-30",
+                          },
+                          "ref": null,
+                          "rendered": "Gross Income",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": undefined,
+                            "className": "w-70 dollar",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td
+                            className="w-30"
+                          >
+                            Income Tax
+                          </td>,
+                          <td
+                            className="w-70 dollar"
+                          />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Income Tax",
+                            "className": "w-30",
+                          },
+                          "ref": null,
+                          "rendered": "Income Tax",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": undefined,
+                            "className": "w-70 dollar",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td
+                            className="w-30"
+                          >
+                            Net Income
+                          </td>,
+                          <td
+                            className="w-70 dollar"
+                          />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Net Income",
+                            "className": "w-30",
+                          },
+                          "ref": null,
+                          "rendered": "Net Income",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": undefined,
+                            "className": "w-70 dollar",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td
+                            className="w-30"
+                          >
+                            Super
+                          </td>,
+                          <td
+                            className="w-70 dollar"
+                          />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Super",
+                            "className": "w-30",
+                          },
+                          "ref": null,
+                          "rendered": "Super",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": undefined,
+                            "className": "w-70 dollar",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td
+                            className="w-30"
+                          >
+                            Pay
+                          </td>,
+                          <td
+                            className="w-70 dollar"
+                          />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Pay",
+                            "className": "w-30",
+                          },
+                          "ref": null,
+                          "rendered": "Pay",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": undefined,
+                            "className": "w-70 dollar",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                  ],
+                  "type": "tbody",
+                },
+              ],
+              "type": "table",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Pay",
+                "className": "btn btn-success btn-post-login btn-pay",
+                "onClick": true,
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": "Pay",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="preview-wrapper card content-container"
+        >
+          <h2
+            className="psg-heading-card"
+          >
+            <IoIosContact
+              className="icon"
+            />
+            Pay slip for 
+             
+          </h2>
+          <div
+            className="d-flex flex-wrap"
+          >
+            <table
+              className="table table-psg"
+            >
+              <thead>
+                <tr>
+                  <th
+                    className="w-30"
+                    scope="col"
+                  >
+                    Item
+                  </th>
+                  <th
+                    className="w-70"
+                    scope="col"
+                  >
+                    Emp Details
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Employee
+                  </td>
+                  <td
+                    className="w-70 ="
+                  >
+                     
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Pay Date
+                  </td>
+                  <td
+                    className="w-70"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Pay Frequency
+                  </td>
+                  <td
+                    className="w-70"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Annual Income
+                  </td>
+                  <td
+                    className="w-70 dollar"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Gross Income
+                  </td>
+                  <td
+                    className="w-70 dollar"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Income Tax
+                  </td>
+                  <td
+                    className="w-70 dollar"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Net Income
+                  </td>
+                  <td
+                    className="w-70 dollar"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Super
+                  </td>
+                  <td
+                    className="w-70 dollar"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="w-30"
+                  >
+                    Pay
+                  </td>
+                  <td
+                    className="w-70 dollar"
+                  />
+                </tr>
+              </tbody>
+            </table>
+            <button
+              className="btn btn-success btn-post-login btn-pay"
+              onClick={true}
+              type="button"
+            >
+              Pay
+            </button>
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="psg-heading-card"
+            >
+              <IoIosContact
+                className="icon"
+              />
+              Pay slip for 
+               
+            </h2>,
+            undefined,
+            undefined,
+            <div
+              className="d-flex flex-wrap"
+            >
+              <table
+                className="table table-psg"
+              >
+                <thead>
+                  <tr>
+                    <th
+                      className="w-30"
+                      scope="col"
+                    >
+                      Item
+                    </th>
+                    <th
+                      className="w-70"
+                      scope="col"
+                    >
+                      Emp Details
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Employee
+                    </td>
+                    <td
+                      className="w-70 ="
+                    >
+                       
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Pay Date
+                    </td>
+                    <td
+                      className="w-70"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Pay Frequency
+                    </td>
+                    <td
+                      className="w-70"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Annual Income
+                    </td>
+                    <td
+                      className="w-70 dollar"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Gross Income
+                    </td>
+                    <td
+                      className="w-70 dollar"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Income Tax
+                    </td>
+                    <td
+                      className="w-70 dollar"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Net Income
+                    </td>
+                    <td
+                      className="w-70 dollar"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Super
+                    </td>
+                    <td
+                      className="w-70 dollar"
+                    />
+                  </tr>
+                  <tr>
+                    <td
+                      className="w-30"
+                    >
+                      Pay
+                    </td>
+                    <td
+                      className="w-70 dollar"
+                    />
+                  </tr>
+                </tbody>
+              </table>
+              <button
+                className="btn btn-success btn-post-login btn-pay"
+                onClick={true}
+                type="button"
+              >
+                Pay
+              </button>
+            </div>,
+          ],
+          "className": "preview-wrapper card content-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <IoIosContact
+                  className="icon"
+                />,
+                "Pay slip for ",
+                undefined,
+                " ",
+                undefined,
+              ],
+              "className": "psg-heading-card",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "className": "icon",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "Pay slip for ",
+              undefined,
+              " ",
+              undefined,
+            ],
+            "type": "h2",
+          },
+          undefined,
+          undefined,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <table
+                  className="table table-psg"
+                >
+                  <thead>
+                    <tr>
+                      <th
+                        className="w-30"
+                        scope="col"
+                      >
+                        Item
+                      </th>
+                      <th
+                        className="w-70"
+                        scope="col"
+                      >
+                        Emp Details
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Employee
+                      </td>
+                      <td
+                        className="w-70 ="
+                      >
+                         
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Pay Date
+                      </td>
+                      <td
+                        className="w-70"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Pay Frequency
+                      </td>
+                      <td
+                        className="w-70"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Annual Income
+                      </td>
+                      <td
+                        className="w-70 dollar"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Gross Income
+                      </td>
+                      <td
+                        className="w-70 dollar"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Income Tax
+                      </td>
+                      <td
+                        className="w-70 dollar"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Net Income
+                      </td>
+                      <td
+                        className="w-70 dollar"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Super
+                      </td>
+                      <td
+                        className="w-70 dollar"
+                      />
+                    </tr>
+                    <tr>
+                      <td
+                        className="w-30"
+                      >
+                        Pay
+                      </td>
+                      <td
+                        className="w-70 dollar"
+                      />
+                    </tr>
+                  </tbody>
+                </table>,
+                <button
+                  className="btn btn-success btn-post-login btn-pay"
+                  onClick={true}
+                  type="button"
+                >
+                  Pay
+                </button>,
+              ],
+              "className": "d-flex flex-wrap",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <thead>
+                      <tr>
+                        <th
+                          className="w-30"
+                          scope="col"
+                        >
+                          Item
+                        </th>
+                        <th
+                          className="w-70"
+                          scope="col"
+                        >
+                          Emp Details
+                        </th>
+                      </tr>
+                    </thead>,
+                    <tbody>
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Employee
+                        </td>
+                        <td
+                          className="w-70 ="
+                        >
+                           
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Pay Date
+                        </td>
+                        <td
+                          className="w-70"
+                        />
+                      </tr>
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Pay Frequency
+                        </td>
+                        <td
+                          className="w-70"
+                        />
+                      </tr>
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Annual Income
+                        </td>
+                        <td
+                          className="w-70 dollar"
+                        />
+                      </tr>
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Gross Income
+                        </td>
+                        <td
+                          className="w-70 dollar"
+                        />
+                      </tr>
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Income Tax
+                        </td>
+                        <td
+                          className="w-70 dollar"
+                        />
+                      </tr>
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Net Income
+                        </td>
+                        <td
+                          className="w-70 dollar"
+                        />
+                      </tr>
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Super
+                        </td>
+                        <td
+                          className="w-70 dollar"
+                        />
+                      </tr>
+                      <tr>
+                        <td
+                          className="w-30"
+                        >
+                          Pay
+                        </td>
+                        <td
+                          className="w-70 dollar"
+                        />
+                      </tr>
+                    </tbody>,
+                  ],
+                  "className": "table table-psg",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <tr>
+                        <th
+                          className="w-30"
+                          scope="col"
+                        >
+                          Item
+                        </th>
+                        <th
+                          className="w-70"
+                          scope="col"
+                        >
+                          Emp Details
+                        </th>
+                      </tr>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <th
+                            className="w-30"
+                            scope="col"
+                          >
+                            Item
+                          </th>,
+                          <th
+                            className="w-70"
+                            scope="col"
+                          >
+                            Emp Details
+                          </th>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Item",
+                            "className": "w-30",
+                            "scope": "col",
+                          },
+                          "ref": null,
+                          "rendered": "Item",
+                          "type": "th",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Emp Details",
+                            "className": "w-70",
+                            "scope": "col",
+                          },
+                          "ref": null,
+                          "rendered": "Emp Details",
+                          "type": "th",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                    "type": "thead",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <tr>
+                          <td
+                            className="w-30"
+                          >
+                            Employee
+                          </td>
+                          <td
+                            className="w-70 ="
+                          >
+                             
+                          </td>
+                        </tr>,
+                        <tr>
+                          <td
+                            className="w-30"
+                          >
+                            Pay Date
+                          </td>
+                          <td
+                            className="w-70"
+                          />
+                        </tr>,
+                        <tr>
+                          <td
+                            className="w-30"
+                          >
+                            Pay Frequency
+                          </td>
+                          <td
+                            className="w-70"
+                          />
+                        </tr>,
+                        <tr>
+                          <td
+                            className="w-30"
+                          >
+                            Annual Income
+                          </td>
+                          <td
+                            className="w-70 dollar"
+                          />
+                        </tr>,
+                        <tr>
+                          <td
+                            className="w-30"
+                          >
+                            Gross Income
+                          </td>
+                          <td
+                            className="w-70 dollar"
+                          />
+                        </tr>,
+                        <tr>
+                          <td
+                            className="w-30"
+                          >
+                            Income Tax
+                          </td>
+                          <td
+                            className="w-70 dollar"
+                          />
+                        </tr>,
+                        <tr>
+                          <td
+                            className="w-30"
+                          >
+                            Net Income
+                          </td>
+                          <td
+                            className="w-70 dollar"
+                          />
+                        </tr>,
+                        <tr>
+                          <td
+                            className="w-30"
+                          >
+                            Super
+                          </td>
+                          <td
+                            className="w-70 dollar"
+                          />
+                        </tr>,
+                        <tr>
+                          <td
+                            className="w-30"
+                          >
+                            Pay
+                          </td>
+                          <td
+                            className="w-70 dollar"
+                          />
+                        </tr>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <td
+                              className="w-30"
+                            >
+                              Employee
+                            </td>,
+                            <td
+                              className="w-70 ="
+                            >
+                               
+                            </td>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Employee",
+                              "className": "w-30",
+                            },
+                            "ref": null,
+                            "rendered": "Employee",
+                            "type": "td",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                undefined,
+                                " ",
+                                undefined,
+                              ],
+                              "className": "w-70 =",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              undefined,
+                              " ",
+                              undefined,
+                            ],
+                            "type": "td",
+                          },
+                        ],
+                        "type": "tr",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <td
+                              className="w-30"
+                            >
+                              Pay Date
+                            </td>,
+                            <td
+                              className="w-70"
+                            />,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Pay Date",
+                              "className": "w-30",
+                            },
+                            "ref": null,
+                            "rendered": "Pay Date",
+                            "type": "td",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                              "className": "w-70",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "td",
+                          },
+                        ],
+                        "type": "tr",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <td
+                              className="w-30"
+                            >
+                              Pay Frequency
+                            </td>,
+                            <td
+                              className="w-70"
+                            />,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Pay Frequency",
+                              "className": "w-30",
+                            },
+                            "ref": null,
+                            "rendered": "Pay Frequency",
+                            "type": "td",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                              "className": "w-70",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "td",
+                          },
+                        ],
+                        "type": "tr",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <td
+                              className="w-30"
+                            >
+                              Annual Income
+                            </td>,
+                            <td
+                              className="w-70 dollar"
+                            />,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Annual Income",
+                              "className": "w-30",
+                            },
+                            "ref": null,
+                            "rendered": "Annual Income",
+                            "type": "td",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                              "className": "w-70 dollar",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "td",
+                          },
+                        ],
+                        "type": "tr",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <td
+                              className="w-30"
+                            >
+                              Gross Income
+                            </td>,
+                            <td
+                              className="w-70 dollar"
+                            />,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Gross Income",
+                              "className": "w-30",
+                            },
+                            "ref": null,
+                            "rendered": "Gross Income",
+                            "type": "td",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                              "className": "w-70 dollar",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "td",
+                          },
+                        ],
+                        "type": "tr",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <td
+                              className="w-30"
+                            >
+                              Income Tax
+                            </td>,
+                            <td
+                              className="w-70 dollar"
+                            />,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Income Tax",
+                              "className": "w-30",
+                            },
+                            "ref": null,
+                            "rendered": "Income Tax",
+                            "type": "td",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                              "className": "w-70 dollar",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "td",
+                          },
+                        ],
+                        "type": "tr",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <td
+                              className="w-30"
+                            >
+                              Net Income
+                            </td>,
+                            <td
+                              className="w-70 dollar"
+                            />,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Net Income",
+                              "className": "w-30",
+                            },
+                            "ref": null,
+                            "rendered": "Net Income",
+                            "type": "td",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                              "className": "w-70 dollar",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "td",
+                          },
+                        ],
+                        "type": "tr",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <td
+                              className="w-30"
+                            >
+                              Super
+                            </td>,
+                            <td
+                              className="w-70 dollar"
+                            />,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Super",
+                              "className": "w-30",
+                            },
+                            "ref": null,
+                            "rendered": "Super",
+                            "type": "td",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                              "className": "w-70 dollar",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "td",
+                          },
+                        ],
+                        "type": "tr",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <td
+                              className="w-30"
+                            >
+                              Pay
+                            </td>,
+                            <td
+                              className="w-70 dollar"
+                            />,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Pay",
+                              "className": "w-30",
+                            },
+                            "ref": null,
+                            "rendered": "Pay",
+                            "type": "td",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                              "className": "w-70 dollar",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "td",
+                          },
+                        ],
+                        "type": "tr",
+                      },
+                    ],
+                    "type": "tbody",
+                  },
+                ],
+                "type": "table",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Pay",
+                  "className": "btn btn-success btn-post-login btn-pay",
+                  "onClick": true,
+                  "type": "button",
+                },
+                "ref": null,
+                "rendered": "Pay",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

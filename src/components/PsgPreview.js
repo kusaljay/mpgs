@@ -55,8 +55,8 @@ const PsgPreview = ({employeeData, clickPay, clickAnother}) => {
               </tr>
             </tbody>
           </table>
-          {employeeData.dbSubmitSuccess && <button type="button" onClick={clickAnother} className="btn btn-success btn-post-login add-another">Add another employee</button>}
-          {employeeData.showPreview && <button type="button" onClick={clickPay} className="btn btn-success btn-post-login pay">Pay</button>}
+          {!employeeData.dbSubmitSuccess ? <button type="button" onClick={clickPay} className="btn btn-success btn-post-login btn-pay">Pay</button> 
+          : <button type="button" onClick={clickAnother} className="btn btn-success btn-post-login btn-addanother">Add another employee</button>}
         </div>
       </div>
     </div>

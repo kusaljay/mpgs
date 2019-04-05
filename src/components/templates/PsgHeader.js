@@ -8,7 +8,7 @@ const PsgHeader = () => {
     <header className="header-wrapper">
       <div className="container d-flex justify-content-between align-items-center inner-wrapper">
         <img src={logo} className="logo inner" alt="myob logo" />
-        <Link className="psg-link-text" onClick={() => firebase.auth().signOut()}>Logout</Link>
+        <Link className="psg-link-text" to="../login" onClick={() => firebase.auth().signOut()}>Logout</Link>
       </div>
     </header>
   )

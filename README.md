@@ -15,13 +15,14 @@
 * Assumed there's already a user with valid credentials in the database. Therefore didn't attempt to create users in database by signing them up. 
 * Always use the credentials given to sign in.
 * Using console.log in componentDidMount() to check the database entries in realtime. 
-* Attemped to make the views look as close as possible to mock-ups but didn't attempt to exactly replicate styling in mock-ups as access to MYOB style components, fonts and iconography was not provided. Default bootstrap font Open sans and Ionicons are used.
+* Attemped to make the views look as close as possible to mock-ups but didn't attempt to exactly replicate styling in mock-ups as access to myob style components, fonts and iconography was not provided. Default bootstrap font Open sans and Ionicons are used.
 * Didn't attempt to make the views mobile first as the behaviour in mobile form factors were not provided in mock-ups.
 
 ## Key libraries and frameworks used
 
-* Latest stable versions of React, React-DOM, React-router-DOM, Bootstrap, node sass, firebase.
+* Latest stable versions of React, React-DOM, React-router-DOM, Bootstrap, node sass, firebase, Jest, Enzyme
 
 ## Tests
 
-* Coming soon...
+* Unit tests are written using Jest and Enzyme.
+* Run 'npm test' to run tests.

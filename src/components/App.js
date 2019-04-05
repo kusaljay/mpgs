@@ -9,8 +9,7 @@ import './assets/App.scss';
 class App extends Component {
   state = {
     signedIn: false,
-    user: null,
-    data: []
+    user: null
   }
 
   componentDidMount() { 

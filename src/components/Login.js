@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
-import firebase from './firebase';
-import logo from './assets/logo-gradient.svg';
+import firebase from '../utils/firebase';
+import logo from '../assets/logo-gradient.svg';
 
 class Login extends Component {
   state = {
@@ -19,7 +19,7 @@ class Login extends Component {
     e.preventDefault();
     const { username, password } = e.target.elements;
     try {
-      const user = await firebase.auth().signInWithEmailAndPassword(username.value, password.value);
+      await firebase.auth().signInWithEmailAndPassword(username.value, password.value);
       this.props.history.push('/psghome');
     } 
     catch (error) {

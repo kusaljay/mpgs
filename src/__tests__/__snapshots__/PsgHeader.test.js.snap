@@ -29,7 +29,7 @@ ShallowWrapper {
         <Link
           className="psg-link-text"
           onClick={[Function]}
-          to="../login"
+          to="../components/login"
         >
           Logout
         </Link>
@@ -51,7 +51,7 @@ ShallowWrapper {
           <Link
             className="psg-link-text"
             onClick={[Function]}
-            to="../login"
+            to="../components/login"
           >
             Logout
           </Link>,
@@ -81,7 +81,7 @@ ShallowWrapper {
             "children": "Logout",
             "className": "psg-link-text",
             "onClick": [Function],
-            "to": "../login",
+            "to": "../components/login",
           },
           "ref": null,
           "rendered": "Logout",
@@ -109,7 +109,7 @@ ShallowWrapper {
           <Link
             className="psg-link-text"
             onClick={[Function]}
-            to="../login"
+            to="../components/login"
           >
             Logout
           </Link>
@@ -131,7 +131,7 @@ ShallowWrapper {
             <Link
               className="psg-link-text"
               onClick={[Function]}
-              to="../login"
+              to="../components/login"
             >
               Logout
             </Link>,
@@ -161,7 +161,7 @@ ShallowWrapper {
               "children": "Logout",
               "className": "psg-link-text",
               "onClick": [Function],
-              "to": "../login",
+              "to": "../components/login",
             },
             "ref": null,
             "rendered": "Logout",

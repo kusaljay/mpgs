@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import firebase from './firebase';
-import PsgHeader from './templates/PsgHeader';
-import PsgFooter from './templates/PsgFooter';
-import PsgForm from './PsgForm';
-import PsgPreview from './PsgPreview';
-import {rounding, calcIncomeTax, currentDate} from './utils/helpers'
+import firebase from '../utils/firebase';
+import PsgHeader from '../templates/PsgHeader';
+import PsgFooter from '../templates/PsgFooter';
+import PsgForm from '../components/PsgForm';
+import PsgPreview from '../components/PsgPreview';
+import {rounding, calcIncomeTax, currentDate} from '../utils/helpers'
 
 
 class PsgHome extends Component {
@@ -28,6 +28,7 @@ class PsgHome extends Component {
       dbSubmitSuccessMsg: '',
       dbSubmitError: false,
       dbSubmitErrorMsg: '',
+      buttonTxt: '',
       employees: []
     }
     this.initialState = {...this.state};
@@ -86,7 +87,7 @@ class PsgHome extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     if (this.handleValidation()) {
-      this.setState({showPreview: true});
+      this.setState({showPreview: true, buttonTxt: 'Pay'});
       this.generatePaySlip();
     }
   }
@@ -110,7 +111,7 @@ class PsgHome extends Component {
     employeesRef.push(currentEmployee)
     .then(() => {
       const success = `Pay info succefully added for ${this.state.firstName} ${this.state.lastName}`;
-      this.setState({dbSubmitSuccess: true, dbSubmitSuccessMsg: success});
+      this.setState({dbSubmitSuccess: true, dbSubmitSuccessMsg: success, buttonTxt: `Add another employee`});
     })
     .catch((error) => {
       this.setState({dbSubmitError: true, dbSubmitErrorMsg: error.message});

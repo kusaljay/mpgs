@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from './Button';
+import Alert from './Alert';
 import {IoIosContact} from 'react-icons/io';
 
 const PsgPreview = ({employeeData, clickPay, clickAnother}) => {
@@ -6,8 +8,11 @@ const PsgPreview = ({employeeData, clickPay, clickAnother}) => {
     <div>
       <div className="preview-wrapper card content-container">
         <h2 className="psg-heading-card"><IoIosContact className="icon"/>Pay slip for {employeeData.firstName} {employeeData.lastName}</h2>
+        
         {employeeData.dbSubmitSuccessMsg && <div className="alert alert-success form-alerts">{employeeData.dbSubmitSuccessMsg}</div>}
         {employeeData.dbSubmitErrorMsg && <div className="alert alert-danger form-alerts">{employeeData.dbSubmitErrorMsg}</div>}
+
+        <Alert type={employeeData.dbSubmitSuccess || employeeData.dbSubmitError}></Alert> 
         <div className="d-flex flex-wrap">
           <table className="table table-psg">
             <thead>
@@ -55,8 +60,8 @@ const PsgPreview = ({employeeData, clickPay, clickAnother}) => {
               </tr>
             </tbody>
           </table>
-          {!employeeData.dbSubmitSuccess ? <button type="button" onClick={clickPay} className="btn btn-success btn-post-login btn-pay">Pay</button> 
-          : <button type="button" onClick={clickAnother} className="btn btn-success btn-post-login btn-addanother">Add another employee</button>}
+          {/* <button className="btn btn-success btn-post-login" onClick={!employeeData.dbSubmitSuccess ? clickPay : clickAnother}>{employeeData.buttonTxt}</button> */}
+          <Button onClick={!employeeData.dbSubmitSuccess ? clickPay : clickAnother}>{employeeData.buttonTxt}</Button>
         </div>
       </div>
     </div>

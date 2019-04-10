@@ -28,7 +28,6 @@ const PsgForm = ({inputChanged, submitGenerate, errors}) => {
           </div>
           <button type="submit" className="btn btn-success btn-post-login">Generate Payslip</button>
         </div>
-
       </form>
     </div>
   )

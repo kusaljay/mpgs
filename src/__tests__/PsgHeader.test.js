@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import PsgHeader from '../components/templates/PsgHeader';
+import PsgHeader from '../templates/PsgHeader';
 
 let wrapper;
 

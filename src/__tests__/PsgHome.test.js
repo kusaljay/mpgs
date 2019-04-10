@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import PsgHome from '../components/PsgHome';
+import PsgHome from '../containers/PsgHome';
 import PsgForm from '../components/PsgForm';
-import PsgPreview from '../components/PsgPreview';
+/* import PsgPreview from '../components/PsgPreview'; */
 
 let wrapper;
 

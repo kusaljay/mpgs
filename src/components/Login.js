@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import firebase from '../utils/firebase';
-import logo from '../assets/logo-gradient.svg';
+/* import logo from '../assets/logo-gradient.svg'; */
 
 class Login extends Component {
   state = {
@@ -30,7 +30,7 @@ class Login extends Component {
   render() {
     return (
       <div className="container login-wrapper d-flex justify-content-center align-items-center">
-        <img src={logo} className="logo login" alt="myob logo" />
+        {/* <img src={logo} className="logo login" /> */}
         <h1 className="psg-heading-main mb-4">Sign in to Pay Slip Generator</h1>
         <div className="card content-container login">
           <form onSubmit={this.handleSignIn}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import Alert from './Alert';
+/* import Alert from './Alert'; */
 import {IoIosContact} from 'react-icons/io';
 
 const PsgPreview = ({employeeData, clickPay, clickAnother}) => {
@@ -12,7 +12,7 @@ const PsgPreview = ({employeeData, clickPay, clickAnother}) => {
         {employeeData.dbSubmitSuccessMsg && <div className="alert alert-success form-alerts">{employeeData.dbSubmitSuccessMsg}</div>}
         {employeeData.dbSubmitErrorMsg && <div className="alert alert-danger form-alerts">{employeeData.dbSubmitErrorMsg}</div>}
 
-        <Alert type={employeeData.dbSubmitSuccess || employeeData.dbSubmitError}></Alert> 
+        {/* <Alert type={employeeData.dbSubmitSuccess || employeeData.dbSubmitError}></Alert>  */}
         <div className="d-flex flex-wrap">
           <table className="table table-psg">
             <thead>

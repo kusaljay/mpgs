@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import firebase from '../utils/firebase';
+import firebase from '../../utils/firebase';
 /* import logo from '../assets/logo-gradient.svg'; */
 
 const PsgHeader = () => {

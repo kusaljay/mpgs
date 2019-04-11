@@ -15,7 +15,7 @@ class Login extends Component {
     });
   }
 
-  handleSignIn = async e => {
+  /* handleSignIn = async e => {
     e.preventDefault();
     const { username, password } = e.target.elements;
     try {
@@ -25,13 +25,29 @@ class Login extends Component {
     catch (error) {
       this.setState({formErrors: error.message});
     }
+  } */
+
+  handleSignIn = e => {
+    e.preventDefault();
+    const { username, password } = e.target.elements;
+    
+    firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE)
+      .then(() => {
+        firebase.auth().signInWithEmailAndPassword(username.value, password.value);
+        this.props.history.push('/psghome');
+      })
+    .catch ((error) => {
+      console.log(error.code);
+      console.log(error.message);
+      this.setState({formErrors: error.message});
+    });
   }
   
   render() {
     return (
       <div className="container login-wrapper d-flex justify-content-center align-items-center">
         {/* <img src={logo} className="logo login" /> */}
-        <h1 className="psg-heading-main mb-4">Sign in to Pay Slip Generator</h1>
+        <h1 className="psg-heading-main mb-4">Sign in to PayCal</h1>
         <div className="card content-container login">
           <form onSubmit={this.handleSignIn}>
             {this.state && this.state.formErrors && <div className="alert alert-danger form-alerts">{this.state.formErrors}</div>}

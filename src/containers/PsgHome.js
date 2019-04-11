@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import firebase from '../utils/firebase';
-import PsgHeader from '../templates/PsgHeader';
-import PsgFooter from '../templates/PsgFooter';
+import PsgHeader from '../components/templates/PsgHeader';
+import PsgFooter from '../components/templates/PsgFooter';
 import PsgForm from '../components/PsgForm';
 import PsgPreview from '../components/PsgPreview';
 import {rounding, calcIncomeTax, currentDate} from '../utils/helpers'
@@ -124,9 +124,7 @@ class PsgHome extends Component {
   }
 
   componentDidMount() {
-    /* Use this to view the database getting updated using console.log
-       Didn't attempt to render the list employees being added to the database. 
-    */
+    /* View database getting updated */
     const employeesRef = firebase.database().ref('/employees');
     employeesRef.on('value', (snapshot) => {
       let empFromDb = snapshot.val();
@@ -147,7 +145,7 @@ class PsgHome extends Component {
       <div className="post-login-main-wrapper post-login">
         <PsgHeader />
         <main className="container">
-          <h1 className="psg-heading-main mt-5 mb-2">Pay Slip Generator</h1>
+          <h1 className="psg-heading-main mt-5 mb-2">PayCal</h1>
           {this.renderContent()}
         </main>
         <PsgFooter />

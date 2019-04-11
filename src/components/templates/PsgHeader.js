@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import firebase from '../../utils/firebase';
 /* import logo from '../assets/logo-gradient.svg'; */
 
 const PsgHeader = () => {
+  useEffect(() => {
+    console.log(`[PsgHeader.js] with useEffect`);
+  }, []);
+
   return (
     <header className="header-wrapper">
       <div className="container d-flex justify-content-end align-items-center inner-wrapper">

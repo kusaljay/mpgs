@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 /* import logo from '../assets/logo-gradient.svg'; */
 
 const PsgFooter = () => {
+  useEffect(() => {}, []); // Render footer on perent component's first load only
+
   return (
     <footer className="footer-wrapper">
       <div className="footer-nav container d-flex justify-content-end align-items-center">
